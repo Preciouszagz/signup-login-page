@@ -80,10 +80,10 @@ function handleButtonClick(isSignup) {
     if (checkFields(isSignup)) {
         location.reload(); // Reload the page if all fields are filled
     } else {
-        error.style.display = 'block'; // Show error message if any field is empty
+        error.style.display = 'block'; 
         setTimeout(() => {
-            error.style.display = 'none'; // Hide error message after a short delay
-        }, 3000); // 3 seconds delay
+            error.style.display = 'none'; 
+        }, 3000);
     }
 }
 
